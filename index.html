@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alarm-js-project</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Alarm JS &#8986;</h1>
+    </header>
+    <main>
+        <section>
+            <div id="ctime">
+                <h4><b>RealTime:</b></h4>
+                <div class="square">
+                    <div class="digits" id="chr">00</div>
+                    <div class="text">H</div>
+                </div>
+                <div class="square">
+                    <div class="digits" id="cmin">00</div>
+                    <div class="text">min</div>
+                </div>
+                <div class="square">
+                    <div class="digits" id="csec">00</div>
+                    <div class="text">sec</div>
+                </div>
+            </div>
+            <div id="tpick">
+                <h5 class="header">ALARM</h5>
+                <div id="tpick-h"></div>
+                <div id="tpick-m"></div>
+                <div id="tpick-s"></div>
+                <div>
+                    <input type="button" value="Set" id="tset" />
+                    <br>
+                    <input type="button" value="Reset" id="treset" disabled />
+                </div>
+            </div>
+            <audio id="alarm-sound" loop>
+                <source src="assets/alarm.mp3" type="audio/mp3">
+            </audio>
+        </section>
+        <br>
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>

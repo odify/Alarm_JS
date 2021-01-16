@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Fira Sans, serif;
+    font-weight: 800;
+    max-height: 100%;
+    background-color: #000007;
+    color: #fff;
+}
+header{
+    margin: 0 auto;
+    background-color: #F25c27;
+    text-align: center;
+    border: 3px outset #ff8c5f;
+}
+.title{
+    font-size: 1.43em;
+    color: #fff;
+    letter-spacing: 0.74px;
+    background-color: #F25c27;
+    text-shadow: 1.97px 2.22px 2.74px #191919;
+}
+#ctime {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 10px;
+  background: #000;
+}
+#ctime, #tpick {
+  font-family: Fira Sans, serif;
+}
+.header {
+  text-align: center;
+  margin: 5px 0 10px 0;
+}
+#ctime .header {
+  color: #f92828;
+  text-shadow: 1.77px 2.12px 3.97px #000;
+}
+#ctime .square {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+#ctime .digits {
+  border: 3.76px outset #f92826;
+  font-size: 1.9em;
+  color: #000;
+  text-shadow: 2.27px 0.12px 1.57px #f92828;
+  background: #fff;
+  padding: 20px 10px;
+}
+#ctime .text {
+  margin-top: 1.2vh;
+}
+#tpick {
+  padding: 10px;
+  margin: 0 auto;
+  background: #F25c27;
+  text-shadow: 1.3px 1px 2.27px #000;
+  max-width: 70%;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1.9em;
+}
+#tpick-h, #tpick-m, #tpick-s {
+  display: inline-block;
+font-size: 2.07em;
+  max-width: 70%;
+}
+#tpick select {
+  box-sizing: padding-box;
+  width: 100%;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+#tset, #treset {
+  box-sizing: padding-box;
+  padding: 2.79%;
+  width: 90%;
+  background: #212529;
+  color: #fff;
+  font-size: 0.69em;
+  border: 0;
+  cursor: pointer;
+}
+#tset:disabled, #treset:disabled {
+  background: #fff;
+  color: #000;
+  border: 2.19px outset #fff;
+  box-shadow: 2.17px 1.82px 3.94px #000;
+}
